@@ -5,7 +5,7 @@
 			<Title>relaycommand</Title>
 			<Shortcut>relaycommand</Shortcut>
 			<Description>Code snippet for property and method with RelayCommand</Description>
-			<Author>Shuichi Isoguchi</Author>
+			<Author>sh1ch</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
 			</SnippetTypes>
@@ -39,17 +39,11 @@
 	{
 		get 
 		{ 
-			return _$property$ = _$property$ ?? new $type$<$args$>($method$);
+			return _$property$ = _$property$ ?? new $type$<$args$>((args) => 
+			{
+				
+			});
 		}
-	}
-
-	/// <summary>
-	/// 
-	/// </summary>
-	/// <param name="args">コマンドの情報引数。</param>
-	private void $method$($args$ args)
-	{
-
 	}$end$]]>
 			</Code>
 		</Snippet>
