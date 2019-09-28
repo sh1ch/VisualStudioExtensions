@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>relaycommand</Title>
+			<Shortcut>relaycommand</Shortcut>
+			<Description>Code snippet for property and method with RelayCommand</Description>
+			<Author>Shuichi Isoguchi</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>type</ID>
+					<ToolTip>Property type</ToolTip>
+					<Default>RelayCommand</Default>
+				</Literal>
+				<Literal>
+					<ID>args</ID>
+					<ToolTip>Property type</ToolTip>
+					<Default>CommandInfoArgs</Default>
+				</Literal>
+				<Literal>
+					<ID>property</ID>
+					<ToolTip>Property name</ToolTip>
+					<Default>NewCommand</Default>
+				</Literal>
+				<Literal>
+					<ID>method</ID>
+					<ToolTip>Method name</ToolTip>
+					<Default>NewMethod</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[private $type$<$args$> _$property$;
+
+	public $type$<$args$> $property$
+	{
+		get 
+		{ 
+			return _$property$ = _$property$ ?? new $type$<$args$>($method$);
+		}
+	}
+
+	/// <summary>
+	/// 
+	/// </summary>
+	/// <param name="args">コマンドの情報引数。</param>
+	private void $method$($args$ args)
+	{
+
+	}$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
