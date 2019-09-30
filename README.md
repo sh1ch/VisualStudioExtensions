@@ -23,17 +23,17 @@ Item Templates [here](https://docs.microsoft.com/ja-jp/visualstudio/ide/how-to-c
 - INotifyPropertyChanged Class
 - Enum
 
-<img src="https://github.com/sh1ch/VisualStudioExtensions/blob/images/Images/template-sample.png" width="500">
+<img src="https://github.com/sh1ch/VisualStudioExtensions/blob/images/Images/template-sample.png" width="600">
 
 ## Quick Start
 
 Simply copy the (.zip or .snippet) file to the specified folder.
 
-<img src="https://github.com/sh1ch/VisualStudioExtensions/blob/images/Images/vs-file.png" width="500">
+<img src="https://github.com/sh1ch/VisualStudioExtensions/blob/images/Images/vs-file.png" width="600">
 
 ## Samples
 
-<img src="https://github.com/sh1ch/VisualStudioExtensions/blob/images/Images/code-sample.png" width="500">
+<img src="https://github.com/sh1ch/VisualStudioExtensions/blob/images/Images/code-sample.png" width="600">
 
 ## Known Issues
 
