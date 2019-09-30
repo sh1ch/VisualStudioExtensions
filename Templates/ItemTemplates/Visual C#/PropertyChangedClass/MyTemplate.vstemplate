@@ -1,0 +1,14 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Model.cs</DefaultName>
+    <Name>NotifyPropertyChanged Class</Name>
+    <Description>INotifyPropertyChanged インターフェースを継承し、Region Directive で区切られた空の Public Class テンプレートです。</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PropertyChangedClass.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
