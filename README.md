@@ -37,6 +37,6 @@ Simply copy the (.zip or .snippet) file to the specified folder.
 
 ## Known Issues
 
-Please post and view issues on [GitHub][issues]
+Please post and view issues on [GitHub][issues].
 
 [issues]: https://github.com/sh1ch/VisualStudioExtensions/issues "Post issues"
