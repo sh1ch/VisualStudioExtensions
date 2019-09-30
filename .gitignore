@@ -1,0 +1,6 @@
+# Images ブランチでは次のフォルダーを管理しない
+Templates/
+Code Snippets/
+
+# Images ブランチでは次のファイルを管理しない
+README.md
