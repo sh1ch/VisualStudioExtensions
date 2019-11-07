@@ -22,6 +22,7 @@ Item Templates [here](https://docs.microsoft.com/ja-jp/visualstudio/ide/how-to-c
 - Region Class
 - INotifyPropertyChanged Class
 - Enum
+- Interface
 
 <img src="https://github.com/sh1ch/VisualStudioExtensions/blob/images/Images/template-sample.png" width="600">
 
