@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace $rootnamespace$
 {
     /// <summary>
-    /// $safeitemname$ インターフェースは、値型・クラス型で実装する＊＊＊を目的とするメソッド・プロパティを定義します。
+    /// <see cref="$safeitemname$"/> インターフェースは、値型・クラス型で実装する＊＊＊を目的とするメソッド・プロパティを定義します。
     /// </summary>
     public interface $safeitemname$
     {

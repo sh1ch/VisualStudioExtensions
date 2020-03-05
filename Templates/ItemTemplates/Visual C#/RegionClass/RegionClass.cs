@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace $rootnamespace$
 {
     /// <summary>
-    /// $safeitemname$ クラスは、＊＊＊をサポートするためのクラスです。
+    /// <see cref="$safeitemname$"/> クラスは、＊＊＊をサポートするためのクラスです。
     /// </summary>
     public class $safeitemname$
     {
