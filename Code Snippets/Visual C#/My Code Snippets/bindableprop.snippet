@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>notifyproperty</Title>
-			<Shortcut>notifyproperty</Shortcut>
-			<Description>Code snippet for property and backing field with NotifyPropertyChanged</Description>
+			<Title>bindableprop</Title>
+			<Shortcut>bindableprop</Shortcut>
+			<Description>Code snippet for property and backing field with Prism SetProperty</Description>
 			<Author>sh1ch</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -27,12 +27,8 @@
 
 	public $type$ $property$
 	{
-		get { return _$property$; }
-		set
-		{
-			_$property$ = value;
-			PropertyChanged.Raise(this, nameof($property$));
-		}
+		get => _$property$;
+		set => SetProperty(ref _$property$, value);
 	}$end$]]>
 			</Code>
 		</Snippet>
