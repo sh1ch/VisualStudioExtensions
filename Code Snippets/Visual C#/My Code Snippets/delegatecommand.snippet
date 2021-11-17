@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>relaycommand</Title>
-			<Shortcut>relaycommand</Shortcut>
-			<Description>Code snippet for property and method with RelayCommand</Description>
+			<Title>delegatecommand</Title>
+			<Shortcut>delegatecommand</Shortcut>
+			<Description>Code snippet for property and method with DelegateCommand</Description>
 			<Author>sh1ch</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -15,7 +15,7 @@
 				<Literal>
 					<ID>type</ID>
 					<ToolTip>Property type</ToolTip>
-					<Default>RelayCommand</Default>
+					<Default>DelegateCommand</Default>
 				</Literal>
 				<Literal>
 					<ID>args</ID>
@@ -28,18 +28,7 @@
 					<Default>NewCommand</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp"><![CDATA[private $type$<$args$> _$property$;
-
-	public $type$<$args$> $property$
-	{
-		get 
-		{ 
-			return _$property$ = _$property$ ?? new $type$<$args$>((args) => 
-			{
-				Debug.WriteLine($$"{nameof($property$)} Called.");
-			});
-		}
-	}$end$]]>
+			<Code Language="csharp"><![CDATA[public DelegateCommand $end$$property$ { get; }]]>
 			</Code>
 		</Snippet>
 	</CodeSnippet>
