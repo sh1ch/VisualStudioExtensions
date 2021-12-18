@@ -1,5 +1,5 @@
 # VisualStudioExtensions
-This repository includes (code snippet and templates) for vs 2019.
+This repository includes (code snippet and templates) for vs 2022.
 
 ## TOC
 
@@ -14,8 +14,8 @@ This repository includes (code snippet and templates) for vs 2019.
 - Code Snippets
 - Item Templates
 
-Code Snippets [here](https://docs.microsoft.com/ja-jp/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019)  
-Item Templates [here](https://docs.microsoft.com/ja-jp/visualstudio/ide/how-to-create-item-templates?view=vs-2019)
+Code Snippets [here](https://docs.microsoft.com/ja-jp/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2022)  
+Item Templates [here](https://docs.microsoft.com/ja-jp/visualstudio/ide/how-to-create-item-templates?view=vs-2022)
 
 ### Item Templates
 
