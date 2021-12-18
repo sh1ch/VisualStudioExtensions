@@ -4,40 +4,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$
+namespace $rootnamespace$;
+
+/// <summary>
+/// <see cref="$safeitemname$"/> クラスは、＊＊＊をサポートするためのクラスです。
+/// </summary>
+public class $safeitemname$
 {
+    #region Fields
+    
+    #endregion
+    
+    #region Properties
+    
+    #endregion
+
+    #region Initializes
+
     /// <summary>
-    /// <see cref="$safeitemname$"/> クラスは、＊＊＊をサポートするためのクラスです。
+    /// <see cref="$safeitemname$"/> クラスの新しいインスタンスを初期化します。
     /// </summary>
-    public class $safeitemname$
+    public $safeitemname$()
     {
-        #region Fields
-        
-        #endregion
-        
-        #region Properties
-        
-        #endregion
 
-        #region Initializes
-
-        /// <summary>
-        /// <see cref="$safeitemname$"/> クラスの新しいインスタンスを初期化します。
-        /// </summary>
-        public $safeitemname$(){  }
-        
-        #endregion
-
-        #region Events
-        
-        #endregion
-
-        #region Public Methods
-        
-        #endregion
-        
-        #region Private Methods
-        
-        #endregion
     }
+    
+    #endregion
+
+    #region Events
+    
+    #endregion
+
+    #region Public Methods
+    
+    #endregion
+    
+    #region Private Methods
+    
+    #endregion
 }

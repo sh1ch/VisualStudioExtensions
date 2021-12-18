@@ -6,45 +6,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$
+namespace $rootnamespace$;
+
+/// <summary>
+/// <see cref="$safeitemname$"/> クラスは、＊＊＊をサポートするためのクラスです。
+/// </summary>
+public class $safeitemname$ : INotifyPropertyChanged
 {
+    public event PropertyChangedEventHandler PropertyChanged;
+
     /// <summary>
-    /// <see cref="$safeitemname$"/> クラスは、＊＊＊をサポートするためのクラスです。
+    /// <see cref="$safeitemname$"/> クラスの新しいインスタンスを初期化します。
     /// </summary>
-    public class $safeitemname$ : INotifyPropertyChanged
+    public $safeitemname$() 
     {
-        #region Fields
         
-        #endregion
-
-        #region Properties
-        
-        #endregion
-
-        #region Initializes
-
-        /// <summary>
-        /// <see cref="$safeitemname$"/> クラスの新しいインスタンスを初期化します。
-        /// </summary>
-        public $safeitemname$() 
-        {
-        	
-        }
-        
-        #endregion
-
-        #region Events
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        
-        #endregion
-
-        #region Public Methods
-        
-        #endregion
-
-        #region Private Methods
-        
-        #endregion
     }
 }

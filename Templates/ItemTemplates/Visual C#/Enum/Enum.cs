@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$
+namespace $rootnamespace$;
+
+/// <summary>
+/// <see cref="$safeitemname$"/> 列挙型は、＊＊＊を示す識別子を表します。
+/// </summary>
+public enum $safeitemname$
 {
-    /// <summary>
-    /// <see cref="$safeitemname$"/> 列挙型は、＊＊＊を示す識別子を表します。
-    /// </summary>
-    public enum $safeitemname$
-    {
-        
-    }
+    
 }

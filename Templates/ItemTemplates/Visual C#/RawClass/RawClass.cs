@@ -4,16 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$
+namespace $rootnamespace$;
+
+/// <summary>
+/// <see cref="$safeitemname$"/> クラスは、＊のクラスです。
+/// </summary>
+public class $safeitemname$
 {
     /// <summary>
-    /// <see cref="$safeitemname$"/> クラスは、＊のクラスです。
+    /// <see cref="$safeitemname$"/> クラスの新しいインスタンスを初期化します。
     /// </summary>
-    public class $safeitemname$
+    public $safeitemname$()
     {
-        /// <summary>
-        /// <see cref="$safeitemname$"/> クラスの新しいインスタンスを初期化します。
-        /// </summary>
-        public $safeitemname$(){  }
+        
     }
 }
