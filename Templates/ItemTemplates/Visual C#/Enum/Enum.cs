@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace $rootnamespace$;
 
 /// <summary>
-/// <see cref="$safeitemname$"/> 列挙型は、＊＊＊を示す識別子を表します。
+/// <see cref="$safeitemname$"/> 列挙型は、＊を示します。
 /// </summary>
 public enum $safeitemname$
 {

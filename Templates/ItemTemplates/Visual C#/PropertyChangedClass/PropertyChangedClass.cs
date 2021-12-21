@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace $rootnamespace$;
 
 /// <summary>
-/// <see cref="$safeitemname$"/> クラスは、＊＊＊をサポートするためのクラスです。
+/// <see cref="$safeitemname$"/> クラスは、＊です。
 /// </summary>
 public class $safeitemname$ : INotifyPropertyChanged
 {

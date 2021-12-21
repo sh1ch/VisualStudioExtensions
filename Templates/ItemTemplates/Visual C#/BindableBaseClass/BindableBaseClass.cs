@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace $rootnamespace$;
 
 /// <summary>
-/// <see cref="$safeitemname$"/> クラスは、＊のクラスです。
+/// <see cref="$safeitemname$"/> クラスは、＊です。
 /// </summary>
 public class $safeitemname$ : BindableBase
 {
