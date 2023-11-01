@@ -6,12 +6,13 @@ set dst_temp="%USERPROFILE%\Documents\Visual Studio 2022\Templates\ItemTemplates
 set src_snip="Code Snippets\Visual C#\My Code Snippets"
 set dst_snip="%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets"
 
-rem ƒR[ƒh ƒXƒjƒyƒbƒg‚ÌƒRƒs[
+rem ã‚³ãƒ¼ãƒ‰ ã‚¹ãƒ‹ãƒšãƒƒãƒˆã®ã‚³ãƒ”ãƒ¼
 copy %src_snip%\bindableprop.snippet %dst_snip%
 copy %src_snip%\delegatecommand.snippet %dst_snip%
 
-rem ƒeƒ“ƒvƒŒ[ƒg‚ÌƒRƒs[
-copy %src_temp%\BindableBaseClass\BindableBaseClass.zip %dst_temp%
+rem ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®ã‚³ãƒ”ãƒ¼
+copy %src_temp%\PrismBindableClass\PrismBindableClass.zip %dst_temp%
+copy %src_temp%\PropertyChangedClass\PropertyChangedClass.zip %dst_temp%
 copy %src_temp%\Enum\Enum.zip %dst_temp%
 copy %src_temp%\Interface\IInterface.zip %dst_temp%
 copy %src_temp%\RawClass\RawClass.zip %dst_temp%

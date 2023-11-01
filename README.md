@@ -23,7 +23,6 @@ Item Templates [here](https://docs.microsoft.com/ja-jp/visualstudio/ide/how-to-c
 - BandableBase (using Prism)
 - Enum
 - Interface
-- Region Class (not recommended)
 - INotifyPropertyChanged Class (not recommended)
 
 <img src="https://github.com/sh1ch/VisualStudioExtensions/blob/images/Images/template-sample.png" width="400">

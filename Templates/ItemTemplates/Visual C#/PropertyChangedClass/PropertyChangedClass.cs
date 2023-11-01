@@ -20,6 +20,5 @@ public class $safeitemname$ : INotifyPropertyChanged
     /// </summary>
     public $safeitemname$() 
     {
-        
     }
 }

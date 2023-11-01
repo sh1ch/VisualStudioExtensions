@@ -11,5 +11,4 @@ namespace $rootnamespace$;
 /// </summary>
 public interface $safeitemname$
 {
-    
 }

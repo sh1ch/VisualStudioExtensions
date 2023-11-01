@@ -1,0 +1,14 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>PrismBindableClass.cs</DefaultName>
+    <Name>PrismBindable Class</Name>
+    <Description>Prism を利用する空の Public Class テンプレートです。(Model, ViewModel 対応)</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">PrismBindableClass.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

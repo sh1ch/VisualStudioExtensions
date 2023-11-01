@@ -19,11 +19,5 @@ public class $safeitemname$ : BindableBase
     /// </summary>
     public $safeitemname$()
     {
-        
     }
-
-    /// <summary>
-    /// <see cref="$safeitemname$"/> クラスの新しいインスタンスを初期化します。
-    /// </summary>
-    // public $safeitemname$(IRegionManager regionManager, IEventAggregator eventAggregator){ }
 }
